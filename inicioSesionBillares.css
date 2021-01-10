@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: linear-gradient(to right,#50B82C, #6B3114);
+    background-attachment: fixed;
+    padding: 20px;
+
+}
+
+.contenedor-todo {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+.contenedor-form {
+    width: 80%;
+    padding: 40px;
+    background: rgb(228, 226, 217);
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin:auto;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    color: #266B0E;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    color: #B84E1A;
+    font-size: 16px;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0px;
+    background: #2225B8;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover{
+    background: #B84E1A;
+}
+
+ .contenedor-texto{
+     background-image: url(/multimedia/sistema\ billar.jpg);
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     padding: 40px;
+     position: relative;
+     color: white;
+
+
+ }
+
+ .capa {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.781);
+
+ }
+
+ .titulo-informacion{
+     position: relative;
+     top: 80px;
+     font-weight: 300;
+     font-size: 40px;
+ }
+
+ .descripcion-texto{
+     position: relative;
+     top: 110px;
+     font-size: 18px;
+     font-weight: 200;
+ }
+
+ 

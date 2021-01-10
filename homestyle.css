@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0; 
+    border: 1px  solid forestgreen;
+}
+
+body{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.menu-nav{
+    text-align: right;
+    padding: 0;
+}
+
+
+
+.menu-nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(12, 26, 219, 0.404) 0%, rgba(30, 85, 204, 0.397) 100%), url(multimedia/old-youth-D8ujoE9ylh0-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero {
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero h1{
+    font-size: 60px;
+}
+.copy{
+   font-size: 24px;
+   padding: 20px 0;
+   font-weight: 300;
+   text-align: center;
+}
+.contenedor-textos {
+    padding-bottom: 100px;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.seccion1{
+    padding-top: 30px;
+}
+.marcador {
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+}
+.titulo-seccion {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+.contenedor-sobre-nosotros {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.relatos{
+    width: 40%;
+}
+.relato{
+    margin-bottom: 30px;
+}
+.n-relato {
+    font-size: 25px;
+    color: chocolate;
+    margin-bottom: 5px;
+}
+.ilustracion{
+     width: 50%;
+}
+.portafolio {
+    background: #f2f2f2;
+}
+.portafolio-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+.imagen-contenedor {
+    width: 31%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.imagen-contendor img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.table-taxis {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.taxi {
+    width: 25%;
+    text-align: center;
+    background: #c0b629;
+    height: 500px;
+    border-radius: 10px;
+    padding: 50px 10px;
+    overflow: hidden;
+    color:#fff;
+}
+.marca-taxi{
+    font-size: 40px;
+}
+.active{
+    background: black;
+    transform: scale(1.1);
+    color: white;
+}
+.precio{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.beneficio{
+     font-size: 24px;
+     font-weight: 300;
+     margin-bottom: 20px;
+     border-bottom: 1px dotted #fff;
+     padding-bottom: 5px;
+}
+.cta{
+    background-color: blanchedalmond;
+    color:goldenrod;
+    display: inline-block;
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.contactenos {
+    background: #f2f2f2;
+    margin-top: 70px;
+
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+footer{
+    background-color: black;
+    padding: 120px 0;
+    top: 80px ;
+    overflow: hidden;
+}
+.container-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #c0b629;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/fondo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="dosJugadores.css">
+    <title>Marcador</title>
+</head>
+<body>
+    <header class="todo">
+         <button id="botonBlanca" class="btn grande blanca" onclick="contadorBlanca()">0</button>
+         <div class="peques pequesblanca">
+            <button id="menos1b"  class="btn menos1b peque" onclick="menos1b()">-1</button>
+            <button id="mas2b"  class="btn mas2b peque" onclick="mas2b()">+2</button>
+            <button id="mas3b"  class="btn mas3b peque" onclick="mas3b()" >+3</button>
+            <button id="mas4b" class="btn mas4b peque" onclick="mas4b()" >+4</button>
+        </div>
+         <video class="video" src="/multimedia/fondovideo2.mp4" controls autoplay></video>
+         <button id="botonAmarilla" class="btn grande amarilla" onclick="contadorAmarilla()">0</button>
+         <div class="peques pequesamarilla">
+             
+             <button id="menos1a" class="btn menos1a peque" onclick="menos1a()" >-1</button>
+             <button id="mas2a" class="btn mas2a peque" onclick="mas2a()" >+2</button>
+             <button id="mas3a" class="btn mas3a peque" onclick="mas3a()">+3</button>
+             <button id="mas4a" class="btn mas4a peque" onclick="mas4a()">+4</button>
+        </div>
+        <nav class="navegacion">
+            <i class="fas fa-user"></i>
+            <i class="fas fa-vest"></i>
+            <i class="fas fa-wrench"></i>
+            <i class="fas fa-undo-alt"></i>
+            <i class="fas fa-sign-out-alt"></i>
+        </nav>
+        <script src="https://kit.fontawesome.com/64b3159798.js" crossorigin="anonymous"></script>
+        <script src="dosJugadores.js"></script>
+   </header>
+   
+</body>
+</html>
+            
+        
